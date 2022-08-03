@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Poppins:wght@200;400;500;700&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+    padding: 50px 30px;
+    background-image: url(https://images.pexels.com/photos/8474989/pexels-photo-8474989.jpeg?cs=srgb&dl=pexels-rodnae-productions-8474989.jpg&fm=jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    display: flex;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 3px;
+    padding: 20px;
+    width: 100%;
+}
+
+form label {
+    margin-top: 16px;
+}
+
+form input {
+    margin-top: 8px;
+    width: 100%;
+    background-color: #777;
+    opacity: .7;
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+form input::placeholder {
+    color: white;
+}
+
+form select {
+    background-color: #777;
+    color: white;
+    opacity: .7;
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+#viaje-si {
+    width: auto;
+    margin-right: 4px;
+}
+
+#viaje-no {
+    width: auto;
+    margin-top: 0;
+    margin-right: 4px;
+}
+
+form textarea {
+    background-color: #777;
+    opacity: .7;
+    color: white;
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+form textarea::placeholder {
+    color: white;
+}
+
+#terminosycondiciones {
+    margin-right: 4px;
+    width: auto;
+}
+
+#personaSaludable {
+    margin-right: 4px;
+    width: auto;
+}
+
+form button {
+    background-color: #37af65;
+    color: white;
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+form button:hover {
+    opacity: .9;
+}
+
+@media screen and (min-width: 720px) {
+    main {
+        padding: 50px 200px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        padding: 50px 400px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    main {
+        padding: 50px 550px;
+    }
+}

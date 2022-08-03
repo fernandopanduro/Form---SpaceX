@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/393fb51165.js" crossorigin="anonymous"></script>
+    <title>SpaceX</title>
+</head>
+<body>
+    <main id="main">
+        <header class="presentacion">
+            <h1 id="title">SpaceX</h1>
+            <p id="description">Gracias Por Viajar Con Nosotros!🚀</p>
+        </header>
+        
+        <form action="" id="survey-form">
+            <label for="name" id="name-label">Nombre <br></label><input type="text" name="name" id="name" placeholder="Fernando Panduro" required>
+            <br>
+            <label for="email" id="email-label">Email <br></label><input type="email" name="email" id="email" placeholder="fernado@ejemplo.com" required>
+            <br>
+            <label for="age" id="number-label">Edad (Opcional) <br><input type="number" min="30" max="70" name="age" id="number" placeholder="33"></label>
+            <br>
+            <label for="dropdown">A donde vamos? <br>
+                <select name="dropdown " id="dropdown">
+                    <option value="Marte" name="planetas">Marte</option>
+                    <option value="Venus" name="planetas">Venus</option>
+                    <option value="Jupiter" name="planetas">Jupiter</option>
+                </select>
+            </label>
+            <br>
+        <p>Es tu primer viaje interplanetario?</p>
+        <label for="viaje-si"><input type="radio" name="viaje" id="viaje-si" value="Si" checked >Yeap</label>
+        <br>
+        <label for="viaje-no"><input type="radio" name="viaje" id="viaje-no" value="No">Nop</label>
+        <br>
+        <label for="opinion">Porque debemos escogerte?
+            <br>
+            <textarea name="opinion" id="opinion" cols="30" rows="10" placeholder="Explica porque eres buena opcion..."></textarea>
+        </label>
+        <br> 
+        <label for="terminosycondiciones" id="terminosycondiciones-contenedor"><input type="checkbox" name="" id="terminosycondiciones" value="acepto" required>Acepto los terminos y condiciones</label>
+        <label for="personaSaludable"><input type="checkbox" name="" id="personaSaludable" value="Soy Persona Saludable" required>Soy una persona saludable</label>
+        <button type="submit" id="submit">Enviar</button>
+        </form>
+
+    </main>
+</body>
+</html>
